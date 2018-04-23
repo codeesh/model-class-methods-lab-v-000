@@ -3,7 +3,7 @@ class BoatClassification < ActiveRecord::Base
   belongs_to :classification
 
   def self.first_five
-    limit(5)
+    all.limit(5)
   end
 
 end
