@@ -5,5 +5,9 @@ class Classification < ActiveRecord::Base
   def self.my_all
     all
   end
-  
+
+  def self.longest
+    all.boat.longest
+  end
+
 end
