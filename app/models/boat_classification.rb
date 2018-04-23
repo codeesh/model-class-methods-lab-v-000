@@ -5,5 +5,5 @@ class BoatClassification < ActiveRecord::Base
   def self.first_five
     limit(5)
   end
-  
+
 end
