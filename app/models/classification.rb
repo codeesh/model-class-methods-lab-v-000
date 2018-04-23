@@ -7,7 +7,7 @@ class Classification < ActiveRecord::Base
   end
 
   def self.longest
-    Boats.longest.classifications
+    Boat.longest.classifications
   end
 
 end
